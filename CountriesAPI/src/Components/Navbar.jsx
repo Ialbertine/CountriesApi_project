@@ -2,18 +2,17 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    let links = []
-    <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex bg-black py-4 ">
-        <div className="cursor-pointer">
-          <img src="./image/logo.svg" alt="logo" />
-        </div>
-        <ul>
-          <li>Countries</li>
-          <li>Continents</li>
-          <li>Regions</li>
-        </ul>
-      </div>
+    <div className="w-[100%] flex justify-around">
+      <img src="./image/logo.svg" alt="logo" />
+      <a href="" className="sm:text-[white] md:invisible">
+        <fasicon />
+      </a>
+      <a
+        href=""
+        className="text-[white] text-[20px] py-6 sm:invisible md:visible"
+      >
+        countries
+      </a>
     </div>
   );
 };
