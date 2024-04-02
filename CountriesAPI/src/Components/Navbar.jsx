@@ -9,7 +9,7 @@ const Navbar = () => {
       </a>
       <a
         href=""
-        className="text-[white] text-[20px] py-6 sm:invisible md:visible"
+        className="text-[white] text-[25px] py-6 sm:invisible md:visible"
       >
         countries
       </a>
